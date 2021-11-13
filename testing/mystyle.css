@@ -1,0 +1,45 @@
+
+.gradient-custom {
+    background: #f093fb;
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+    top: 13px;
+  }
+  .card-body {
+      background: white;
+      padding: 30px;
+      margin:  20px;
+      border-radius: 5px;
+  }
+  
+  .docs-pills {
+    border-radius: 0.5rem;
+}
+
+.docs-pills pre[class*="language-"] {
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.docs-pills .btn-copy-code,
+.docs-tab-content .export-to-snippet {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    box-shadow: none !important;
+    color: #616161 !important;
+    background-color: transparent !important;
+    padding: 6px 15px !important;
+}
+.form-control{
+    border: 1px solid black !important;
+}
